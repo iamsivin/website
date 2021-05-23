@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Image from "../logo/image.jpeg";
+import Image from "../images/image.jpeg";
 import Contact from "./Contact";
 
 function About() {
