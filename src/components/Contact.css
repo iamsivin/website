@@ -11,6 +11,11 @@
   position: relative;
 }
 
+.link {
+  text-decoration: none;
+  color: unset;
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   .icon-wrap {
     display: flex;
