@@ -79,18 +79,27 @@ input:checked + .slider:before {
 
 .slider.round {
   border-radius: 34px;
+  display: flex;
 }
 
 .slider.round:before {
   border-radius: 50%;
 }
 
-.icon {
+.icon-sun {
+  display: flex;
+  justify-content: flex-start;
+  color: #62aeeb;
+  width: 90%;
+  padding: 9px 0px 0px 8px;
+}
+
+.icon-moon {
   display: flex;
   justify-content: flex-end;
   color: #84c0f0;
   width: 90%;
-  padding: 8px 0px 0px 0px;
+  padding: 9px 8px 0px 0px;
 }
 
 @media (min-width: 200px) and (max-width: 480px) {
@@ -108,8 +117,16 @@ input:checked + .slider:before {
     margin: 1.6rem 3rem 1.4rem 1rem;
   }
 
-  .icon {
+  .icon-sun {
+    display: flex;
+    justify-content: flex-start;
+    color: #62aeeb;
     width: 85%;
-    padding: 6px 0px 0px 0px;
+    padding: 7px 0px 0px 8px;
+  }
+
+  .icon-moon {
+    width: 85%;
+    padding: 7px 8px 0px 0px;
   }
 }

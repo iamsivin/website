@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import About from "./components/About";
 import Copyright from "./components/Copyright";
-import { IoMoonSharp } from "react-icons/io5";
+import { IoMoonSharp, IoSunny } from "react-icons/io5";
 
 function App() {
   const [dark, setMode] = useState(false);
@@ -17,7 +17,10 @@ function App() {
             className="checkbox"
           />
           <span className="slider round">
-            <div className="icon">
+            <div className="icon-sun">
+              <IoSunny />
+            </div>
+            <div className="icon-moon">
               <IoMoonSharp />
             </div>
           </span>
