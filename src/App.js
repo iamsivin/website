@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import About from "./components/About";
+import Copyright from "./components/Copyright";
+import { IoMoonSharp } from "react-icons/io5";
 
 function App() {
+  const [dark, setMode] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body className={dark ? "App dark-mode" : "App"}>
+      <div className="nav">
+        <label className="switch">
+          <input
+            type="checkbox"
+            onChange={() => setMode(!dark)}
+            className="checkbox"
+          />
+          <span className="slider round">
+            <div className="icon">
+              <IoMoonSharp />
+            </div>
+          </span>
+        </label>
+      </div>
+      <Header />
+      <About />
+      <Copyright />
+    </body>
   );
 }
 

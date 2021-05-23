@@ -1,0 +1,22 @@
+.copyright-text {
+  margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.4rem 0 4rem 0.4rem;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .copyright-text {
+    margin-top: 2rem;
+    font-size: small;
+    font-family: "Poppins", sans-serif;
+    padding: 0.4rem 0 2rem 0.4rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  .copyright-text {
+    margin-top: 2rem;
+    font-size: x-small;
+    font-family: "Poppins", sans-serif;
+    padding: 0.4rem 0 2rem 0.4rem;
+  }
+}

@@ -1,0 +1,58 @@
+.icon-wrap {
+  display: grid;
+  grid-gap: 1rem;
+  font-size: 2rem;
+  top: 16rem;
+  border-radius: 50%;
+  float: right;
+  text-decoration: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .icon-wrap {
+    display: flex;
+    grid-gap: 1rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .icon-wrap {
+    display: flex;
+    grid-gap: 1rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .icon-wrap {
+    display: flex;
+    grid-gap: 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  .icon-wrap {
+    display: flex;
+    grid-gap: 0.8rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+  }
+}
