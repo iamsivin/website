@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
-import Image from "../images/image.jpeg";
+import Image from "../images/image-b.jpeg";
 import Contact from "./Contact";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function About() {
   return (
@@ -9,7 +11,7 @@ function About() {
       <div className="container">
         <div className="about">
           <div className="image-wrap">
-            <img className="image" src={Image} alt=""></img>
+            <LazyLoadImage className="image" src={Image} alt="" effect="blur" />
           </div>
           <div class="about-head">
             <div class="heading-wrap">
