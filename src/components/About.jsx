@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Image from "../images/image-b.jpeg";
-import Contact from "./Contact";
+import Contact from "./Contact.jsx";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 

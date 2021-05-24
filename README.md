@@ -1,4 +1,3 @@
 # Website
 
-Personal website build using react.
-
+Personal website build using React.JS.

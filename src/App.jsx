@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
-import About from "./components/About";
-import Copyright from "./components/Copyright";
+import Header from "./components/Header.jsx";
+import About from "./components/About.jsx";
+import Copyright from "./components/Copyright.jsx";
 import { IoMoonSharp, IoSunny } from "react-icons/io5";
 
 function App() {
