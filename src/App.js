@@ -8,7 +8,8 @@ import { IoMoonSharp, IoSunny } from "react-icons/io5";
 function App() {
   const [dark, setMode] = useState(false);
   return (
-    <body className={dark ? "App dark-mode" : "App"}>
+    <div className={dark ? "App dark-mode" : "App"}>
+      <div className="empty"></div>
       <div className="nav">
         <label className="switch">
           <input
@@ -29,7 +30,7 @@ function App() {
       <Header />
       <About />
       <Copyright />
-    </body>
+    </div>
   );
 }
 

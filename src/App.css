@@ -18,6 +18,12 @@ body {
   color: #eeeff1;
 }
 
+.empty {
+  background-color: #242b3a;
+  width: 100%;
+  height: 1.4rem;
+}
+
 .nav {
   padding-right: 0rem;
   position: absolute;
