@@ -6,11 +6,18 @@ function Header() {
     <section className="header-wrap">
       <div className="header">
         <div className="wrap">
-          <div className="name">Sivin Varghese</div>
+          <div className="name">SIVIN VARGHESE</div>
         </div>
         <div className="navigation">
-          <div className="about-view">About</div>
-          <div className="work-view">Works</div>
+          <a className="github-view" href="https://github.com/iamsivin">
+            GITHUB
+          </a>
+          <a
+            className="work-view"
+            href="https://github.com/iamsivin?tab=repositories"
+          >
+            WORKS
+          </a>
           <div className="dark"></div>
         </div>
       </div>

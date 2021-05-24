@@ -30,17 +30,21 @@
   font-weight: 500;
 }
 
-.about-view {
+.github-view {
   padding: 0.6rem 0.6rem;
+  text-decoration: none;
+  color: unset;
 }
 
-.about-view:hover {
+.github-view:hover {
   transform: scale(1.05);
   transition: transform 0.5s ease;
 }
 
 .work-view {
   padding: 0.6rem 1.4rem;
+  text-decoration: none;
+  color: unset;
 }
 
 .work-view:hover {
@@ -53,7 +57,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .about-view {
+  .github-view {
     padding: 0.6rem 0.2rem;
   }
 
