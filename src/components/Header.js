@@ -1,13 +1,11 @@
 import React from "react";
 import "./Header.css";
-import Logo from "../images/logo.png";
 
 function Header() {
   return (
-    <section className="header-logo-wrap">
-      <div className="header-wrap">
+    <section className="header-wrap">
+      <div className="header">
         <div className="wrap">
-          <img className="logo" src={Logo} alt=""></img>
           <div className="name">Sivin Varghese</div>
         </div>
         <div className="navigation">

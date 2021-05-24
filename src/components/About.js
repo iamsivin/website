@@ -13,11 +13,11 @@ function About() {
           <div className="image-wrap">
             <LazyLoadImage className="image" src={Image} alt="" effect="blur" />
           </div>
-          <div class="about-head">
-            <div class="heading-wrap">
-              <h1 class="heading-jumbo">Hi there!</h1>
+          <div className="about-head">
+            <div className="heading-wrap">
+              <h1 className="heading">Hi there!</h1>
             </div>
-            <p class="paragraph-light bigger">
+            <p className="paragraph-light">
               A front-end developer from India. Curious about the web. Plays
               well with HTML, CSS, JavaScript. And a beginner when it comes to
               frameworks like React and VueJS.

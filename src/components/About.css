@@ -47,7 +47,7 @@
   display: flex;
 }
 
-.heading-jumbo {
+.heading {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
@@ -96,7 +96,7 @@
     margin-bottom: 100px;
   }
 
-  .heading-jumbo {
+  .heading {
     font-size: 70px;
     line-height: 70px;
   }
@@ -132,7 +132,7 @@
     margin-bottom: 100px;
   }
 
-  .heading-jumbo {
+  .heading {
     font-size: 48px;
     line-height: 65px;
   }
@@ -176,7 +176,7 @@
     margin-bottom: 50px;
   }
 
-  .heading-jumbo {
+  .heading {
     font-size: 50px;
     line-height: 65px;
   }
@@ -220,7 +220,7 @@
     margin-bottom: 70px;
   }
 
-  .heading-jumbo {
+  .heading {
     font-size: 45px;
     line-height: 65px;
   }

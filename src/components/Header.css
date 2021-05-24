@@ -1,14 +1,14 @@
-.header-logo-wrap {
+.header-wrap {
   display: flex;
   flex-direction: column;
 }
 
-.header-wrap {
+.header {
   display: flex;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
   height: 100%;
-  padding: 1.4rem 3rem;
+  padding: 1.2rem 3rem;
   align-items: center;
   background-color: transparent;
   box-shadow: none;
@@ -19,16 +19,9 @@
   display: flex;
 }
 
-.logo {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 0;
-  cursor: auto;
-}
-
 .name {
-  padding: 0.2rem 1rem;
-  font-weight: 500;
+  padding: 0 1rem 0.2rem 0;
+  font-weight: 600;
   font-size: 18px;
 }
 
@@ -41,8 +34,18 @@
   padding: 0.6rem 0.6rem;
 }
 
+.about-view:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}
+
 .work-view {
   padding: 0.6rem 1.4rem;
+}
+
+.work-view:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
 }
 
 .dark {
