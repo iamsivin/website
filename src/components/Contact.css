@@ -71,6 +71,6 @@
   }
 
   .github {
-    display: flex;
+    display: block;
   }
 }
