@@ -202,6 +202,7 @@
 
   .image-wrap {
     width: 100%;
+    min-height: 16rem;
   }
 
   .image {
