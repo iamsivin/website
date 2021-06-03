@@ -35,7 +35,7 @@
 .image {
   width: 22rem;
   height: 22rem;
-  border-radius: 0.7rem;
+  border-radius: 4rem;
 }
 
 .about-head {
@@ -87,7 +87,6 @@
   .image {
     width: 20rem;
     height: 20rem;
-    border-radius: 0.7rem;
   }
 
   .about {
@@ -123,7 +122,6 @@
   .image {
     width: 16rem;
     height: 16rem;
-    border-radius: 0.7rem;
   }
 
   .about {
@@ -166,7 +164,6 @@
     align-items: flex-start;
     width: 16rem;
     height: 16rem;
-    border-radius: 0.7rem;
   }
 
   .about {
@@ -210,7 +207,6 @@
     align-items: flex-start;
     width: 14rem;
     height: 14rem;
-    border-radius: 0.7rem;
   }
 
   .about {
