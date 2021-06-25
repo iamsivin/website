@@ -37,8 +37,7 @@
 }
 
 .github-view:hover {
-  transform: scale(1.05);
-  transition: transform 0.5s ease;
+  color: #5C83AD;
 }
 
 .work-view {
@@ -48,8 +47,7 @@
 }
 
 .work-view:hover {
-  transform: scale(1.05);
-  transition: transform 0.5s ease;
+  color: #5C83AD;
 }
 
 .dark {
