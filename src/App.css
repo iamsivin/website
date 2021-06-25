@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: #D6E0EA;
-  color: #1a1c20;
+  background-color: #ebf0f5;
+  color: #1b2836;
   width: 100%;
   height: 100%;
   min-height: 100vh;
@@ -9,20 +9,20 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #D6E0EA;
-  color: #1a1b1f;
+  background-color: #ebf0f5;
+  color: #1b2836;
   width: 100%;
   height: 100%;
   min-height: 100vh;
 }
 
 .dark-mode {
-  background-color: #1B2836;
-  color: #D6E0EA;
+  background-color: #1b2836;
+  color: #d6e0ea;
 }
 
 .empty {
-  background-color: #1B2836;
+  background-color: #1b2836;
   width: 100%;
   height: 1.4rem;
 }
@@ -59,7 +59,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #1B2836;
+  background-color: #1b2836;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -71,13 +71,13 @@ body {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: #EBF0F5;
+  background-color: #ebf0f5;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #EBF0F5;
+  background-color: #ebf0f5;
 }
 
 input:focus + .slider {
@@ -88,7 +88,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
-  background-color: #1B2836;
+  background-color: #1b2836;
 }
 
 .slider.round {
