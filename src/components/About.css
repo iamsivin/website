@@ -61,7 +61,6 @@
   display: flex;
   font-family: "Poppins", sans-serif;
   text-align: start;
-  margin-bottom: 50px;
   padding-bottom: 0;
   opacity: 1;
   font-weight: 400;
@@ -69,6 +68,16 @@
   text-transform: none;
   font-size: 25px;
   line-height: 40px;
+}
+
+.work-link {
+  display: contents;
+  color: unset;
+  text-decoration: none;
+}
+
+.work-link:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {

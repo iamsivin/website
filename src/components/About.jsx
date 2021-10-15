@@ -18,9 +18,14 @@ function About() {
               <h1 className="heading">Hi there!</h1>
             </div>
             <p className="paragraph-light">
-              A front-end developer from India. Curious about the web. Plays
-              well with HTML, CSS, JavaScript. And a beginner when it comes to
-              frameworks like React and VueJS.
+              I'm a front-end developer from India focusing on building things
+              for the web. I’m specializing in developing (and occasionally
+              designing). Currently, I'm working as a Product developer @
+              <a className="work-link" href="https://www.chatwoot.com/">
+                Chatwoot
+              </a>
+              . Plays with HTML, CSS, JavaScript. And developing with Vue and
+              React when comes to the framework.
             </p>
           </div>
         </div>
