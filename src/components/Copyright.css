@@ -3,6 +3,7 @@
   font-family: "Poppins", sans-serif;
   padding: 0.4rem 0 4rem 0.4rem;
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
   .copyright-text {
     margin-top: 2rem;
