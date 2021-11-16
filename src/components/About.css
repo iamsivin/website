@@ -34,7 +34,7 @@
 
 .image {
   width: 20rem;
-  height: fit-content;
+  height: 100%;
   border-radius: 4rem;
 }
 
@@ -102,7 +102,7 @@ span {
 
   .image {
     width: 18rem;
-    height: fit-content;
+    height: 100%;
   }
 
   .about {
@@ -141,7 +141,7 @@ span {
 
   .image {
     width: 16rem;
-    height: fit-content;
+    height: 100%;
   }
 
   .about {
@@ -188,7 +188,7 @@ span {
     justify-content: flex-start;
     align-items: flex-start;
     width: 14rem;
-    height: fit-content;
+    height: 100%;
   }
 
   .about {
@@ -198,7 +198,7 @@ span {
   }
 
   .about-head {
-    height: fit-content;
+    height: 100%;
   }
 
   .heading {
@@ -235,7 +235,7 @@ span {
     justify-content: flex-start;
     align-items: flex-start;
     width: 12rem;
-    height: fit-content;
+    height: 100%;
   }
 
   .about {
@@ -245,7 +245,7 @@ span {
   }
 
   .about-head {
-    height: fit-content;
+    height: 100%;
   }
 
   .heading {
@@ -281,7 +281,7 @@ span {
   }
 
   .about-head {
-    height: fit-content;
+    height: 100%;
   }
 
   .heading {
@@ -305,6 +305,6 @@ span {
     justify-content: flex-start;
     align-items: flex-start;
     width: 10rem;
-    height: fit-content;
+    height: 100%;
   }
 }
