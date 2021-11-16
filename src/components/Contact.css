@@ -17,7 +17,7 @@
 }
 
 .link:hover {
-  color: #5C83AD;
+  color: #5c83ad;
 }
 
 .github {
@@ -58,10 +58,26 @@
   }
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
+@media (min-width: 351px) and (max-width: 480px) {
   .icon-wrap {
     display: flex;
     grid-gap: 0.8rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+  }
+
+  .github {
+    display: block;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 350px) {
+  .icon-wrap {
+    display: flex;
+    grid-gap: 0.6rem;
     font-size: 1.6rem;
     text-decoration: none;
     justify-content: center;

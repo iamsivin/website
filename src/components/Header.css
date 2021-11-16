@@ -37,7 +37,7 @@
 }
 
 .github-view:hover {
-  color: #5C83AD;
+  color: #5c83ad;
 }
 
 .work-view {
@@ -47,7 +47,7 @@
 }
 
 .work-view:hover {
-  color: #5C83AD;
+  color: #5c83ad;
 }
 
 .dark {
@@ -68,12 +68,22 @@
   }
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
+@media (min-width: 351px) and (max-width: 480px) {
   .navigation {
     display: none;
   }
 
   .dark {
     padding: 0rem 1.8rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 350px) {
+  .header {
+    padding: 0.8rem 1.2rem;
+  }
+
+  .navigation {
+    display: none;
   }
 }
