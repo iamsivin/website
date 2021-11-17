@@ -101,7 +101,7 @@ input:checked + .slider:before {
 .icon-sun {
   display: flex;
   justify-content: flex-start;
-  color: #62aeeb;
+  color: #7faec2;
   width: 90%;
   padding: 9px 0px 0px 8px;
 }
@@ -109,7 +109,7 @@ input:checked + .slider:before {
 .icon-moon {
   display: flex;
   justify-content: flex-end;
-  color: #84c0f0;
+  color: #7faec2;
   width: 90%;
   padding: 9px 8px 0px 0px;
 }
