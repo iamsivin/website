@@ -82,8 +82,7 @@ span {
 }
 
 .work-link:hover {
-  color: #7faec2;
-  font-weight: 500;
+  color: #5c83ad;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {

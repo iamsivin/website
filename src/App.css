@@ -30,15 +30,15 @@ body {
 .nav {
   padding-right: 0rem;
   position: absolute;
-  margin: 1.6rem 3rem 1.8rem 1rem;
+  margin: 1.64rem 3rem 0.8rem 1rem;
   right: 0;
 }
 
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 58px;
+  height: 28px;
 }
 
 .switch:hover {
@@ -67,8 +67,8 @@ body {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 20px;
+  width: 20px;
   left: 4px;
   bottom: 4px;
   background-color: #ebf0f5;
@@ -102,90 +102,25 @@ input:checked + .slider:before {
   display: flex;
   justify-content: flex-start;
   color: #7faec2;
-  width: 90%;
-  padding: 9px 0px 0px 8px;
+  width: 80%;
+  padding: 6px 0px 0px 8px;
 }
 
 .icon-moon {
   display: flex;
   justify-content: flex-end;
   color: #7faec2;
-  width: 90%;
-  padding: 9px 8px 0px 0px;
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .switch {
-    width: 58px;
-    height: 28px;
-  }
-
-  .slider:before {
-    height: 20px;
-    width: 20px;
-  }
-
-  .nav {
-    margin: 1.7rem 3rem 1.4rem 1rem;
-  }
-
-  .icon-sun {
-    width: 80%;
-    padding: 6px 0px 0px 8px;
-  }
-
-  .icon-moon {
-    width: 80%;
-    padding: 6px 8px 0px 0px;
-  }
+  width: 80%;
+  padding: 6px 8px 0px 0px;
 }
 
 @media (min-width: 351px) and (max-width: 480px) {
-  .switch {
-    width: 58px;
-    height: 28px;
-  }
-
-  .slider:before {
-    height: 20px;
-    width: 20px;
-  }
-
   .nav {
     margin: 1.2rem 3rem 1.4rem 1rem;
   }
-
-  .icon-sun {
-    width: 80%;
-    padding: 6px 0px 0px 8px;
-  }
-
-  .icon-moon {
-    width: 80%;
-    padding: 6px 8px 0px 0px;
-  }
 }
 @media (min-width: 200px) and (max-width: 350px) {
-  .switch {
-    width: 58px;
-    height: 28px;
-  }
-
-  .slider:before {
-    height: 20px;
-    width: 20px;
-  }
   .nav {
     margin: 0.8rem 1.2rem 0.8rem 0.8rem;
-  }
-
-  .icon-sun {
-    width: 80%;
-    padding: 6px 0px 0px 8px;
-  }
-
-  .icon-moon {
-    width: 80%;
-    padding: 6px 8px 0px 0px;
   }
 }
