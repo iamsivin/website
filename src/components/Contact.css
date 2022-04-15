@@ -14,6 +14,7 @@
 .link {
   text-decoration: none;
   color: unset;
+  animation: revealText 0.4s forwards;
 }
 
 .link:hover {
@@ -87,5 +88,14 @@
 
   .github {
     display: block;
+  }
+}
+
+@keyframes revealText {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: none;
   }
 }

@@ -14,9 +14,7 @@ function About() {
             <LazyLoadImage className="image" src={Image} alt="" effect="blur" />
           </div>
           <div className="about-head">
-            <div className="heading-wrap">
               <h1 className="heading">Hi there!</h1>
-            </div>
             <p className="paragraph-light">
               I'm a front-end developer from India focusing on building things
               for the web. Currently, I'm working as a Product Developer at <span />
