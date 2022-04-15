@@ -19,7 +19,7 @@ function About() {
             </div>
             <p className="paragraph-light">
               I'm a front-end developer from India focusing on building things
-              for the web. Currently, I,m working as a Product Developer at <span />
+              for the web. Currently, I'm working as a Product Developer at <span />
               <a className="work-link" href="https://www.chatwoot.com/">
                 Chatwoot
               </a>
