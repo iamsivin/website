@@ -14,7 +14,7 @@ function Contact() {
   return (
     <section>
       <div className="icon-wrap">
-        <a className="link github" href="https://github.com/iamsivin">
+        <a className="link" href="https://github.com/iamsivin">
           <IoLogoGithub />
         </a>
         <a className="link" href="mailto:webofworld1@gmail.com">
