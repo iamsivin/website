@@ -17,7 +17,7 @@ function Contact() {
         <a className="link" href="https://github.com/iamsivin">
           <IoLogoGithub />
         </a>
-        <a className="link" href="mailto:webofworld1@gmail.com">
+        <a className="link" href="mailto:gaunt_bounty0d@icloud.com">
           <IoMail />
         </a>
         <a className="link" href="https://twitter.com/sivin_varghese">
